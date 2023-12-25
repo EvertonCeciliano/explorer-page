@@ -9,7 +9,7 @@ function App() {
  <Section1/>
  <Section2/>
  <Section3/>
- <footer><p>© 2023 - Rocketseat Explorer</p></footer>
+ <footer><p>© 2023 - Everton Ceciliano</p></footer>
     </>
   )
 }
