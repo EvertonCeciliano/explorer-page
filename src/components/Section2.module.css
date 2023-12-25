@@ -1,0 +1,19 @@
+.cardWrapper{
+        width: 100%;
+        display: flex;
+        gap:3.1rem ;
+        padding: 2.44rem 3.31rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+}
+
+@media screen and (min-width: 769px){
+   .cardWrapper{
+    padding-inline: 6.94rem;
+    flex-direction: row;
+    gap: 3.75rem;padding-block: 4rem;
+    width: 100vw;
+   }
+}

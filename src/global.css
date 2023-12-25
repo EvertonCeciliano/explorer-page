@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background-color: #F9F4FB;
+    display: grid;
+    grid-template-rows: max-content;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    padding-block: 2rem;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+}
+
+footer p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.21131rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

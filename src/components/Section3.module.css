@@ -1,0 +1,160 @@
+.section {
+    width: 100%;
+    background: #F9F4FB;
+    width: 100%;
+    height: auto;
+    padding-inline: 2.69rem;
+    padding-top: 4.87rem;
+    padding-bottom: 4.06rem;
+}
+
+h2 {
+
+    margin-bottom: 2.70rem;
+    color: #B52184;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+fieldset {
+    height: 100%;
+    border: none;
+    width: 100%;
+}
+
+.inputwrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+}
+
+.name {
+    background: url(../assets/person.svg);
+}
+
+.email {
+    width: 100%;
+    background: url(../assets/at.svg);
+}
+
+.name,
+.email {
+
+    background-repeat: no-repeat;
+    background-position: 0.88rem center;
+    border-radius: 1rem;
+    border: 1.5px solid #312D64;
+    display: flex;
+    width: 21.75rem;
+    padding: 0.75rem 1rem 0.75rem 3.15rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.name::placeholder,
+.email::placeholder {
+    color: #312D64;
+}
+
+textarea {
+    resize: none;
+    background-color: #F9F4FB;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0.75rem 1rem 1rem 1rem;
+    align-items: flex-start;
+    border-radius: 1rem;
+    border: 1.5px solid #312D64;
+}
+
+.inputwrapper .email {
+    width: 100%;
+}
+
+.inputwrapper .name {
+    width: 100%;
+}
+
+.inputwrapper .name:focus,
+.inputwrapper .email:focus, .inputwrapper textarea:focus {
+    outline: none;
+    border-color: #B52184;
+}
+
+.buttonLink {
+    display: inline-flex;
+    height: 2.8125rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: #F9F4FB;
+    border: none;
+    border-radius: 1rem;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+    text-decoration: none; /* Adiciona estilo de link ao botão */
+}
+
+.button-.buttonLink {
+    background-color: #B52184;
+}
+
+
+.buttonLink {
+    color: #F9F4FB;
+    text-decoration: none;
+    display: inline-flex;
+    height: 2.8125rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+}
+
+.buttonLink:hover {
+    background-color: #B52184;
+}
+
+@media screen and (min-width: 769px) {
+    .inputwrapper h2{
+        display: flex;
+
+        padding: 0.75rem 1rem 0.75rem 0.875rem;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .inputwrapper textarea {
+        height: 6.125rem;
+        width: 37rem;
+
+    }
+ 
+    .section{
+        background-image: url('../assets/stars.png');
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+    
+    h2{display: flex;
+        font-size: 2.6rem;
+        
+    }
+
+    .inputwrapper .email {
+        width: 37rem;
+    }
+    
+    .inputwrapper .name {
+        width: 37rem;
+        
+    }
+    
+
+}

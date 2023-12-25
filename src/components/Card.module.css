@@ -1,0 +1,60 @@
+.card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 1.65538rem;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 1.2rem;
+    background: #FFF;
+    box-shadow: 0px 3.311px 13.243px 0px rgba(0, 0, 0, 0.25)
+}
+
+.card img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.card h2 {
+    color: #B52184;
+    font-size: 1.82619rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    color: #312D64;
+    font-size: 1.00263rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media screen and (min-width: 769px) {
+    .card {
+        display: flex;
+        padding: 2rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5;
+
+        align-self: stretch;
+    }
+
+    .card p {
+        height: auto;
+        width: auto;
+        font-size: 1.2rem;
+    }
+
+    .card h2 {
+        color: #B52184;
+        font-family: Mulish;
+        font-size: 2.20638rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+}
