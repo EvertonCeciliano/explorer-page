@@ -1,10 +1,10 @@
 
-# Explorer🚀
+# Rainsunny🌦️
 
 Explorer é um projeto de landing page baseado no design disponível no Figma. O objetivo é criar uma experiência de exploração sem limites, incorporando algumas alterações ao design original.
 
 # Acesso ao Projeto
-Explore a landing page em https://evertonceciliano.github.io/explorer-page/.
+[Explore a aplicação em https://evertonceciliano.github.io/rainsunny.co/.](https://evertonceciliano.github.io/rainsunny.co/)
 
 ## Requisitos de Sistema
 
@@ -15,12 +15,12 @@ Explore a landing page em https://evertonceciliano.github.io/explorer-page/.
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/explorer.git
+   git clone https://github.com/EvertonCeciliano/rainsunny.co.git
    ```
 
 2. Navegue até o diretório do projeto:
    ```bash
-   cd explorer
+   cd rainsunny.co
    ```
 
 3. Instale as dependências usando npm:
