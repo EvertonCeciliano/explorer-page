@@ -14,7 +14,7 @@ Explore a landing page em https://evertonceciliano.github.io/explorer-page/.
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/explorer.git
+   git clone https://github.com/evertonceciliano/explorer.git
    ```
 
 2. Navegue até o diretório do projeto:
